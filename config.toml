@@ -5,6 +5,7 @@ preserveTaxonomyNames = true
 disablePathToLower = true
 hasCJKLanguage = true
 copyright = ""
+enableGitInfo = true
 [params]
   author = "lmly9193"
   description = "Webstack Hugo"

@@ -17,9 +17,9 @@
         <meta property="og:site_name" content="">
         <link rel="icon" href="/assets/favicon.png">
         <link rel="apple-touch-icon" href="/assets/app-ico.png">
-        <link rel='stylesheet' href='/assets/css/font-awesome.min.css?ver={{ .Hash }}' media='all'>
-        <link rel='stylesheet' href='/assets/css/bootstrap.css?ver={{ .Hash }}' media='all'>
-        <link rel='stylesheet' href='/assets/css/nav.css?ver={{ .Hash }}' media='all'>
+        <link rel='stylesheet' href='/assets/css/font-awesome.min.css?ver={{ .GitInfo.AbbreviatedHash }}' media='all'>
+        <link rel='stylesheet' href='/assets/css/bootstrap.css?ver={{ .GitInfo.AbbreviatedHash }}' media='all'>
+        <link rel='stylesheet' href='/assets/css/nav.css?ver={{ .GitInfo.AbbreviatedHash }}' media='all'>
     </head>
 
     {{ $style := "white" }}
@@ -38,11 +38,11 @@
             </div>
         </div>
 
-        <script src='./assets/js/jquery-1.11.1.min.js?ver={{ .Hash }}'></script>
-        <script src='./assets/js/bootstrap.min.js?ver={{ .Hash }}'></script>
-        <script src='./assets/js/TweenMax.min.js?ver={{ .Hash }}'></script>
-        <script src='./assets/js/app.js?ver={{ .Hash }}'></script>
-        <script src='./assets/js/lazyload.min.js?ver={{ .Hash }}'></script>
+        <script src='./assets/js/jquery-1.11.1.min.js?ver={{ .GitInfo.AbbreviatedHash }}'></script>
+        <script src='./assets/js/bootstrap.min.js?ver={{ .GitInfo.AbbreviatedHash }}'></script>
+        <script src='./assets/js/TweenMax.min.js?ver={{ .GitInfo.AbbreviatedHash }}'></script>
+        <script src='./assets/js/app.js?ver={{ .GitInfo.AbbreviatedHash }}'></script>
+        <script src='./assets/js/lazyload.min.js?ver={{ .GitInfo.AbbreviatedHash }}'></script>
         <script>
             $(document).ready(function () {
                 $(document).on('click', '.has-sub', function () {
