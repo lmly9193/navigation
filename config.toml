@@ -1,0 +1,14 @@
+baseURL = "http://example.org/"
+languageCode = "zh-Hant"
+title = "網址導航"
+preserveTaxonomyNames = true
+disablePathToLower = true
+hasCJKLanguage = true
+copyright = ""
+[params]
+  author = "lmly9193"
+  description = "Webstack Hugo"
+[params.search]
+  enable = false
+[params.darkmode]
+  enable = false

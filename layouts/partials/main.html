@@ -1,0 +1,89 @@
+<div class="sites-list" style="margin-bottom: 8.5rem;">
+    {{ range .Site.Data.webstack }}
+    {{ if .list }}
+    <h3 class="text-gray" style="display: inline-block;">{{ .taxonomy }}</h3>
+    <hr style="margin-top: 0;">
+    {{ range .list }}
+    <h4 class="text-gray" style="display: inline-block;"><i class="icon-io-tag" style="margin-right: 27px;" id="{{ md5 .term }}"></i>{{ .term }}</h4>
+    <div class="row">
+        {{ range .links }}
+        {{ if .qrcode }}
+        <div class="xe-card col-sm-4 col-md-3 wechat">
+            <a href="javascript:" target="" class="xe-widget xe-conversations box2 label-info" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<img src='{{ .qrcode }}' width='128'>">
+                <div class="xe-comment-entry">
+                    <div class="xe-user-img">
+                        <img class="img-circle lazy" src="./assets/images/favicon.png" data-src="{{ .logo }}" onerror="javascript:this.src='./assets/images/favicon.png'" width="40">
+                    </div>
+                    <div class="xe-comment">
+                        <div class="xe-user-name overflowClip_1">
+                            <strong>{{ .title }}</strong>
+                        </div>
+                        <p class="overflowClip_2">{{ .description }}</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        {{ else }}
+        <div class="xe-card col-sm-4 col-md-3 ">
+            <a href="{{ .url }}" target="_blank" class="xe-widget xe-conversations box2 label-info" data-toggle="tooltip" data-placement="bottom" title="{{ .url }}">
+                <div class="xe-comment-entry">
+                    <div class="xe-user-img">
+                        <img class="img-circle lazy" src="./assets/images/favicon.png" data-src="{{ .logo }}" onerror="javascript:this.src='./assets/images/favicon.png'" width="40">
+                    </div>
+                    <div class="xe-comment">
+                        <div class="xe-user-name overflowClip_1">
+                            <strong>{{ .title }}</strong>
+                        </div>
+                        <p class="overflowClip_2">{{ .description }}</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        {{ end }}
+        {{ end }}
+    </div>
+    <br>
+    {{ end }}
+    {{ else }}
+    <h4 class="text-gray" style="display: inline-block;"><i class="icon-io-tag" style="margin-right: 27px;" id="{{ md5 .taxonomy }}"></i>{{ .taxonomy }}</h4>
+    <div class="row">
+        {{ range .links }}
+        {{ if .qrcode }}
+        <div class="xe-card col-sm-4 col-md-3 wechat">
+            <a href="javascript:" target="" class="xe-widget xe-conversations box2 label-info" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<img src='{{ .qrcode }}' width='128'>">
+                <div class="xe-comment-entry">
+                    <div class="xe-user-img">
+                        <img class="img-circle lazy" src="./assets/images/favicon.png" data-src="{{ .logo }}" onerror="javascript:this.src='./assets/images/favicon.png'" width="40">
+                    </div>
+                    <div class="xe-comment">
+                        <div class="xe-user-name overflowClip_1">
+                            <strong>{{ .title }}</strong>
+                        </div>
+                        <p class="overflowClip_2">{{ .description }}</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        {{ else }}
+        <div class="xe-card col-sm-4 col-md-3 ">
+            <a href="{{ .url }}" target="_blank" class="xe-widget xe-conversations box2 label-info" data-toggle="tooltip" data-placement="bottom" title="{{ .url }}">
+                <div class="xe-comment-entry">
+                    <div class="xe-user-img">
+                        <img class="img-circle lazy" src="./assets/images/favicon.png" data-src="{{ .logo }}" onerror="javascript:this.src='./assets/images/favicon.png'" width="40">
+                    </div>
+                    <div class="xe-comment">
+                        <div class="xe-user-name overflowClip_1">
+                            <strong>{{ .title }}</strong>
+                        </div>
+                        <p class="overflowClip_2">{{ .description }}</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        {{ end }}
+        {{ end }}
+    </div>
+    <br>
+    {{ end }}
+    {{ end }}
+</div>

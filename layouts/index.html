@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title>{{ .Site.Title }}</title>
+        <meta name="theme-color" content="#2C2E2F">
+        <meta name="keywords" content="Webstack Hugo theme">
+        <meta name="description" content="Webstack Hugo theme">
+        <meta http-equiv="content-language" content="{{ .Site.LanguageCode }}">
+        <meta property="og:type" content="article">
+        <meta property="og:url" content="">
+        <meta property="og:title" content="">
+        <meta property="og:description" content="">
+        <meta property="og:image" content="/assets/screenshot.jpg">
+        <meta property="og:site_name" content="">
+        <link rel="icon" href="/assets/favicon.png">
+        <link rel="apple-touch-icon" href="/assets/app-ico.png">
+        <link rel='stylesheet' href='/assets/css/font-awesome.min.css?ver={{ .Hash }}' media='all'>
+        <link rel='stylesheet' href='/assets/css/bootstrap.css?ver={{ .Hash }}' media='all'>
+        <link rel='stylesheet' href='/assets/css/nav.css?ver={{ .Hash }}' media='all'>
+    </head>
+
+    {{ $style := "white" }}
+    {{ if .Site.Params.darkmode.enable }}
+    {{ $style = "black" }}
+    {{ end }}
+
+    <body class="page-body {{ $style }}">
+        <div class="page-container">
+            {{ template "sidebar.html" . }}
+            <div class="main-content">
+                {{ template "navbar.html" . }}
+                {{ partial "search.html" . }}
+                {{ partial "main.html" . }}
+                {{ template "footer.html" . }}
+            </div>
+        </div>
+
+        <script src='./assets/js/jquery-1.11.1.min.js?ver={{ .Hash }}'></script>
+        <script src='./assets/js/bootstrap.min.js?ver={{ .Hash }}'></script>
+        <script src='./assets/js/TweenMax.min.js?ver={{ .Hash }}'></script>
+        <script src='./assets/js/app.js?ver={{ .Hash }}'></script>
+        <script src='./assets/js/lazyload.min.js?ver={{ .Hash }}'></script>
+        <script>
+            $(document).ready(function () {
+                $(document).on('click', '.has-sub', function () {
+                    var _this = $(this)
+                    if (!$(this).hasClass('expanded')) {
+                        setTimeout(function () {
+                            _this.find('ul').attr("style", "")
+                        }, 300);
+
+                    } else {
+                        $('.has-sub ul').each(function (id, ele) {
+                            var _that = $(this)
+                            if (_this.find('ul')[0] != ele) {
+                                setTimeout(function () {
+                                    _that.attr("style", "")
+                                }, 300);
+                            }
+                        })
+                    }
+                })
+                $('.user-info-menu .hidden-xs').click(function () {
+                    if ($('.sidebar-menu').hasClass('collapsed')) {
+                        $('.has-sub.expanded > ul').attr("style", "")
+                    } else {
+                        $('.has-sub.expanded > ul').show()
+                    }
+                })
+                $("#main-menu li ul li").click(function () {
+                    $(this).siblings('li').removeClass('active'); // 删除其他兄弟元素的样式
+                    $(this).addClass('active'); // 添加当前元素的样式
+                });
+                $("a.smooth").click(function (ev) {
+                    ev.preventDefault();
+                    if ($("#main-menu").hasClass('mobile-is-visible') != true)
+                        return;
+                    public_vars.$mainMenu.add(public_vars.$sidebarProfile).toggleClass('mobile-is-visible');
+                    ps_destroy();
+                    $("html, body").animate({
+                        scrollTop: $($(this).attr("href")).offset().top - 80
+                    }, {
+                        duration: 500,
+                        easing: "swing"
+                    });
+                });
+                return false;
+            });
+
+            var href = "";
+            var pos = 0;
+            $("a.smooth").click(function (e) {
+                e.preventDefault();
+                if ($("#main-menu").hasClass('mobile-is-visible') === true)
+                    return;
+                $("#main-menu li").each(function () {
+                    $(this).removeClass("active");
+                });
+                $(this).parent("li").addClass("active");
+                href = $(this).attr("href");
+                pos = $(href).position().top - 100;
+                $("html,body").animate({
+                    scrollTop: pos
+                }, 500);
+            });
+        </script>
+    </body>
+
+</html>

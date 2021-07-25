@@ -1,0 +1,24 @@
+<div class="sidebar-menu toggle-others fixed">
+    <div class="sidebar-menu-inner">
+        <header class="logo-env">
+            <div class="logo">
+                <a href="/" class="logo-expanded">
+                    <img src="/assets/images/logo@2x_nologo.png" height="40" alt="" />
+                </a>
+                <a href="/" class="logo-collapsed">
+                    <img src="/assets/images/logo-collapsed@2x.png" height="40" alt="">
+                </a>
+            </div>
+            <div class="mobile-menu-toggle visible-xs">
+                <a href="#" data-toggle="mobile-menu">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </header>
+        {{ if .IsPage }}
+            {{ partial "sidebar/page.html" . }}
+        {{else}}
+            {{ partial "sidebar/main.html" . }}
+        {{ end }}
+    </div>
+</div>

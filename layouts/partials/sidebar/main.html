@@ -1,0 +1,32 @@
+<ul id="main-menu" class="main-menu">
+    {{ range .Site.Data.webstack }}
+    {{ if .list }}
+    <li>
+        <a>
+            <i class="fa {{ .icon }} fa-fw"></i>
+            <span class="title">{{ .taxonomy }}</span>
+        </a>
+        <ul>
+            {{ range .list }}
+            <li>
+                <a href="#{{ md5 .term }}" class="smooth">{{ .term }}</a>
+            </li>
+            {{ end }}
+        </ul>
+    </li>
+    {{ else }}
+    <li>
+        <a href="#{{ md5 .taxonomy }}" class="smooth">
+            <i class="fa {{ .icon }} fa-fw"></i>
+            <span class="title">{{ .taxonomy }}</span>
+        </a>
+    </li>
+    {{ end }}
+    {{ end }}
+    <li>
+        <a href="./about">
+            <i class="fa fa-heart fa-fw"></i>
+            <span class="tooltip-blue">關於本站</span>
+        </a>
+    </li>
+</ul>
