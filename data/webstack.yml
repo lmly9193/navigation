@@ -122,6 +122,14 @@
               url: https://certbot.eff.org/
               logo: assets/images/default.png
               description: 幫你的網站安裝免費 HTTPS 憑證
+            - title: mkcert
+              url: https://github.com/FiloSottile/mkcert
+              logo: assets/images/default.png
+              description: 一個簡單、零配置的工具，可使用您喜歡的任何名稱製作受信任的本機 SSL 開發憑證。
+            - title: win-acme
+              url: https://github.com/win-acme/win-acme
+              logo: assets/images/default.png
+              description: 適用於 Windows 的簡單 ACME 客戶端 (Let's Encrypt)
       - term: 域名查詢
         links:
             - title: DNS Checker
@@ -236,7 +244,7 @@
               description: 
             - title: XAMPP
               logo: assets/images/default.png
-              url: 
+              url: https://www.apachefriends.org/zh_tw/index.html
               description: 
       - term: 控制面板
         links:
@@ -823,14 +831,6 @@
               url: https://github.com/FThompson/FormPersistence.js
               logo: assets/images/default.png
               description: 用於跨多個會話保存 HTML 表單數據的 JavaScript 庫
-            - title: 
-              url: 
-              logo: assets/images/default.png
-              description: 
-            - title: 
-              url: 
-              logo: assets/images/default.png
-              description: 
       - term: 後端套件
         links:
             - title: PHPMailer
@@ -849,22 +849,6 @@
               url: https://github.com/minwt/newebpay
               logo: assets/images/default.png
               description: minwt 藍新金流 SDK
-            - title: 
-              url: 
-              logo: assets/images/default.png
-              description: 
-            - title: 
-              url: 
-              logo: assets/images/default.png
-              description: 
-            - title: 
-              url: 
-              logo: assets/images/default.png
-              description: 
-            - title: 
-              url: 
-              logo: assets/images/default.png
-              description: 
       - term: 資料處理
         links:
             - title: Dan's Tools
@@ -1344,19 +1328,19 @@
               logo: assets/images/default.png
               description: 匯入大於2MB的MySQL資料庫
             - title: DokuWiki
-              url: 
+              url: https://www.dokuwiki.org/dokuwiki
               logo: assets/images/default.png
               description: 
             - title: Tiny Tiny RSS
-              url: 
+              url: https://tt-rss.org/
               logo: assets/images/default.png
               description: 
             - title: Nextcloud 
-              url: 
+              url: https://nextcloud.com/
               logo: assets/images/default.png
               description: 
             - title: ownCloud
-              url: 
+              url: https://owncloud.com/
               logo: assets/images/default.png
               description: 
             - title: YOURLS
@@ -1365,18 +1349,6 @@
               description: 
             - title: FreshRSS
               url: https://github.com/FreshRSS/FreshRSS
-              logo: assets/images/default.png
-              description: 
-            - title: 
-              url: 
-              logo: assets/images/default.png
-              description: 
-            - title: 
-              url: 
-              logo: assets/images/default.png
-              description: 
-            - title: 
-              url: 
               logo: assets/images/default.png
               description: 
       - term: 嵌入式服務
@@ -1443,6 +1415,10 @@
 - taxonomy: 桌面工具
   icon: fa-desktop
   links:
+      - title: AnotherRedisDesktopManager
+        logo: assets/images/default.png
+        url: https://github.com/qishibo/AnotherRedisDesktopManager
+        description: 
       - title: Apifox
         logo: assets/images/default.png
         url: https://www.apifox.cn/
@@ -1454,6 +1430,10 @@
       - title: FileZilla
         logo: assets/images/default.png
         url: https://filezilla-project.org/
+        description: 
+      - title: FiraCode
+        logo: assets/images/default.png
+        url: https://github.com/tonsky/FiraCode
         description: 
       - title: Github Desktop
         logo: assets/images/default.png
@@ -1478,6 +1458,14 @@
       - title: Kite
         logo: assets/images/default.png
         url: https://www.kite.com/
+        description: 
+      - title: Navicat
+        logo: assets/images/default.png
+        url: https://www.navicat.com/cht/
+        description: 
+      - title: Mockoon
+        logo: assets/images/default.png
+        url: https://github.com/mockoon/mockoon
         description: 
       - title: Navicat
         logo: assets/images/default.png
