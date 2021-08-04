@@ -1,112 +1,118 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-        <title>{{ .Site.Title }}</title>
-        <meta name="theme-color" content="#2C2E2F">
-        <meta name="keywords" content="">
-        <meta name="description" content="">
-        <meta http-equiv="content-language" content="{{ .Site.LanguageCode }}">
-        <meta property="og:type" content="article">
-        <meta property="og:url" content="">
-        <meta property="og:title" content="">
-        <meta property="og:description" content="">
-        <meta property="og:image" content="/assets/screenshot.jpg">
-        <meta property="og:site_name" content="">
-        <link rel="icon" href="/assets/favicon.png">
-        <link rel="apple-touch-icon" href="/assets/app-ico.png">
-        <link rel='stylesheet' href='/assets/css/font-awesome.min.css?timestamp={{ now.Unix }}' media='all'>
-        <link rel='stylesheet' href='/assets/css/bootstrap.css?timestamp={{ now.Unix }}' media='all'>
-        <link rel='stylesheet' href='/assets/css/nav.css?timestamp={{ now.Unix }}' media='all'>
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>{{ .Site.Title }}</title>
+    <meta name="theme-color" content="#2C2E2F">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta http-equiv="content-language" content="{{ .Site.LanguageCode }}">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="/assets/screenshot.jpg">
+    <meta property="og:site_name" content="">
+    <link rel="icon" href="/assets/favicon.png">
+    <link rel="apple-touch-icon" href="/assets/app-ico.png">
+    <link rel='stylesheet' href='/assets/css/font-awesome.min.css?timestamp={{ now.Unix }}' media='all'>
+    <link rel='stylesheet' href='/assets/css/bootstrap.css?timestamp={{ now.Unix }}' media='all'>
+    <link rel='stylesheet' href='/assets/css/nav.css?timestamp={{ now.Unix }}' media='all'>
+    <script>
+        function errLogo(img) {
+            img.src = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAMAAAAOusbgAAAAkFBMVEUAAADi4uLm5ubh4eHh4eHk5OTp6ens7Oz29vb4+Pj6+vr////////h4eHi4uLj4+Pn5+fo6Ojq6urr6+vt7e3t7e3w8PDz8/P19fXy8vL19fX39/f6+vr5+fn////5+fn////////////29vbf39/////7+/vk5OT9/f34+Pju7u7q6uro6Ojz8/Pw8PD19fVy7+kWAAAAJHRSTlMA7cX3++G6pFRJNxwH59/Sy7KsmpmLe2tjY0tANS0pKRQSBFhoVfXbAAAEuklEQVRo3rTUa66CMBCGYaalgIhXRAUVBb+jCUT2v7zz14SLLe08G3jTTmY8Y8ktOoaB2KxJSlpvRBAeo1vi8bqf9srHAF/tT3ePx+McrjBpFZ4frqtJtJPQIHeRy1+/Hgja6HB1lL0EMBRcPHsLgRnEwjIbbzHTNrbIVikspNXcbk6wQvms7FLAmliadwuCA1QYZusMjmS1/Tfzf3ep4JAqtZeX4BTFmrdKwjGpdceePpzznxrv9cHA//nmWIKF/DHnksCEysn9VWCjJva5FmAkxm9YBlbZWLcAs2JkwARmNDxmAXZiqJsD/PJ+tyKYeLdN03Vd075hgqpeOAW0m5/X35fXp4W2tHcq/ykxt53WYSCKuqfQlqNyFQIkDjo87I6vSf7/7+g4lgaricddD0BFldU9FzctOonenS5wvtv919Q8oYtApxUooIun2nvXp3W/TTnp9eq7q1cpVZYE/olEJ8Hba1fqEzqjK7lYNQGzGPAlP+NG6HwaYQcNW64fMXA0iHg2D3FWe6jsxPtP91IOFIBUri5i5G7bMgFkoSGfn197vKWFxJJabNnouSp95ldTOG66vEPu9PmPgFqMwP9OAIZcF828ORbxocsbSrhsq8WgUn8E15P5UMTPaOOLt0RKl+LIz8i62DNhzybzvVX2SLwc2KMSS+RRyq5s1fbbMB9oknJ/5TXEJXGQB2NpeIsPw+zRQPrHkLhqMRzXWjpDaLI3zD1ahDynEn5YFk+5wLJdAS3u2fsfTZxUV0brUhyrUVN3ir/3fFcny6MguyTihVrDq/P1fha/qIETFiotYpHF35HR4uUsvkWDON/bhGRLu+OaOHBKuTFSunxrzPFGOTsKjjzx5ZK1l2Jr08gP5bZIOUVujuYLDexpGeeIiH8TUXHVSMdX+DIHbZfYcCU0eK3WB/OGBlPuqo3jlIPpOJrGaOfZmNDgrXVu1Tti82YNk/dEzjmpuiPyfqpDWm2u92antJiqlU5Ym2qEqrqkNHln/ijvD1NVd7sujmWf5Mmpea/5qMyWXMu3xfXxMirT9WgeFHGsxOgVR0X8YDbKQS1iaout9EUKv8rGbLGKvBv1i+v862x/mLOiHQZhEPgz0xZb7P//3WzMSpZuuZ4StU80MUEB4e64zTEINZNjLtRkcQW34iJ+p+L6O8EGopZx1wZCtszk1jLxkOjS1jm2gCRiSKCxaAHLLZZhO7leY87VbrVnz8KxCICAJTnkevmLOGaJOzCyzwdAAEKfuLk0HABPFE3hhaEPBHuHzozBHoS33dkBRylabd0MkS7+GN5iQG8RXFermN+AXtVyggE9pjDxUzPzCIUJSSdMYcZI2/LVuyBpWwZIG09T185xeyclaKorMc8EMfeSIpJddESKuE188ZKbsslNcVRu4gU26R1LE9gmQmCjJEV1kRRvFFF52djqtxnCysZOQnlhhfIzqwEJzXGhVwPnliHp8DLkGeufCxdeT1nxvbu3AyIAQBiGgf5dowFYeul05BOLmp6MGwrXplQfwQkujsEDFB+5gZGRkVWRkMxK5ygsaOaRBAi1E9hp9NvAnAdhdw9lH8H7bbvC56DRuaS8Tjjd29HtaLVjLcNmuvw+eABDWT1qL/I8pgAAAABJRU5ErkJggg==';
+        }
+    </script>
+</head>
 
-    {{ $style := "white" }}
-    {{ if .Site.Params.darkmode.enable }}
-    {{ $style = "black" }}
-    {{ end }}
+{{ $style := "white" }}
+{{ if .Site.Params.darkmode.enable }}
+{{ $style = "black" }}
+{{ end }}
 
-    <body class="page-body {{ $style }}">
-        <div class="page-container">
-            {{ template "sidebar.html" . }}
-            <div class="main-content">
-                {{ template "navbar.html" . }}
-                {{ partial "search.html" . }}
-                {{ partial "main.html" . }}
-                {{ template "footer.html" . }}
-            </div>
+<body class="page-body {{ $style }}">
+    <div class="page-container">
+        {{ template "sidebar.html" . }}
+        <div class="main-content">
+            {{ template "navbar.html" . }}
+            {{ partial "search.html" . }}
+            {{ partial "main.html" . }}
+            {{ template "footer.html" . }}
         </div>
+    </div>
 
-        <script src='/assets/js/jquery-1.11.1.min.js?timestamp={{ now.Unix }}'></script>
-        <script src='/assets/js/bootstrap.min.js?timestamp={{ now.Unix }}'></script>
-        <script src='/assets/js/TweenMax.min.js?timestamp={{ now.Unix }}'></script>
-        <script src='/assets/js/app.js?timestamp={{ now.Unix }}'></script>
-        <script src='/assets/js/lazyload.min.js?timestamp={{ now.Unix }}'></script>
-        <script>
-            $(document).ready(function () {
-                $(document).on('click', '.has-sub', function () {
-                    var _this = $(this)
-                    if (!$(this).hasClass('expanded')) {
-                        setTimeout(function () {
-                            _this.find('ul').attr("style", "")
-                        }, 300);
+    <script src='/assets/js/jquery-1.11.1.min.js?timestamp={{ now.Unix }}'></script>
+    <script src='/assets/js/bootstrap.min.js?timestamp={{ now.Unix }}'></script>
+    <script src='/assets/js/TweenMax.min.js?timestamp={{ now.Unix }}'></script>
+    <script src='/assets/js/app.js?timestamp={{ now.Unix }}'></script>
+    <script src='/assets/js/lazyload.min.js?timestamp={{ now.Unix }}'></script>
+    <script>
+        $(document).ready(function () {
+            $(document).on('click', '.has-sub', function () {
+                var _this = $(this)
+                if (!$(this).hasClass('expanded')) {
+                    setTimeout(function () {
+                        _this.find('ul').attr("style", "")
+                    }, 300);
 
-                    } else {
-                        $('.has-sub ul').each(function (id, ele) {
-                            var _that = $(this)
-                            if (_this.find('ul')[0] != ele) {
-                                setTimeout(function () {
-                                    _that.attr("style", "")
-                                }, 300);
-                            }
-                        })
-                    }
-                })
-                $('.user-info-menu .hidden-xs').click(function () {
-                    if ($('.sidebar-menu').hasClass('collapsed')) {
-                        $('.has-sub.expanded > ul').attr("style", "")
-                    } else {
-                        $('.has-sub.expanded > ul').show()
-                    }
-                })
-                $("#main-menu li ul li").click(function () {
-                    $(this).siblings('li').removeClass('active'); // 删除其他兄弟元素的样式
-                    $(this).addClass('active'); // 添加当前元素的样式
-                });
-                $("a.smooth").click(function (ev) {
-                    ev.preventDefault();
-                    if ($("#main-menu").hasClass('mobile-is-visible') != true)
-                        return;
-                    public_vars.$mainMenu.add(public_vars.$sidebarProfile).toggleClass('mobile-is-visible');
-                    ps_destroy();
-                    $("html, body").animate({
-                        scrollTop: $($(this).attr("href")).offset().top - 80
-                    }, {
-                        duration: 500,
-                        easing: "swing"
-                    });
-                });
-                return false;
+                } else {
+                    $('.has-sub ul').each(function (id, ele) {
+                        var _that = $(this)
+                        if (_this.find('ul')[0] != ele) {
+                            setTimeout(function () {
+                                _that.attr("style", "")
+                            }, 300);
+                        }
+                    })
+                }
+            })
+            $('.user-info-menu .hidden-xs').click(function () {
+                if ($('.sidebar-menu').hasClass('collapsed')) {
+                    $('.has-sub.expanded > ul').attr("style", "")
+                } else {
+                    $('.has-sub.expanded > ul').show()
+                }
+            })
+            $("#main-menu li ul li").click(function () {
+                $(this).siblings('li').removeClass('active'); // 删除其他兄弟元素的样式
+                $(this).addClass('active'); // 添加当前元素的样式
             });
-
-            var href = "";
-            var pos = 0;
-            $("a.smooth").click(function (e) {
-                e.preventDefault();
-                if ($("#main-menu").hasClass('mobile-is-visible') === true)
+            $("a.smooth").click(function (ev) {
+                ev.preventDefault();
+                if ($("#main-menu").hasClass('mobile-is-visible') != true)
                     return;
-                $("#main-menu li").each(function () {
-                    $(this).removeClass("active");
+                public_vars.$mainMenu.add(public_vars.$sidebarProfile).toggleClass('mobile-is-visible');
+                ps_destroy();
+                $("html, body").animate({
+                    scrollTop: $($(this).attr("href")).offset().top - 80
+                }, {
+                    duration: 500,
+                    easing: "swing"
                 });
-                $(this).parent("li").addClass("active");
-                href = $(this).attr("href");
-                pos = $(href).position().top - 100;
-                $("html,body").animate({
-                    scrollTop: pos
-                }, 500);
             });
-        </script>
-    </body>
+            return false;
+        });
+
+        var href = "";
+        var pos = 0;
+        $("a.smooth").click(function (e) {
+            e.preventDefault();
+            if ($("#main-menu").hasClass('mobile-is-visible') === true)
+                return;
+            $("#main-menu li").each(function () {
+                $(this).removeClass("active");
+            });
+            $(this).parent("li").addClass("active");
+            href = $(this).attr("href");
+            pos = $(href).position().top - 100;
+            $("html,body").animate({
+                scrollTop: pos
+            }, 500);
+        });
+
+    </script>
+</body>
 
 </html>

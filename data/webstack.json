@@ -101,7 +101,7 @@
             },
             {
                 "title": "Google Cloud Platform (GCP)",
-                "logo": "assets/images/brands/google.png",
+                "logo": "assets/images/brands/google.pngs",
                 "url": "https://cloud.google.com",
                 "description": "各產業的頂尖企業都選用 Google Cloud 來解決最艱鉅的難題。"
             },
@@ -1363,6 +1363,48 @@
                         "url": "https://greensock.com/tweenmax/",
                         "logo": "assets/images/default.png",
                         "description": "適用於移動端和現代互聯網的超高性能專業級動畫插件"
+                    },
+                    {
+                        "title": "Zoomooz.js",
+                        "url": "https://github.com/jaukia/zoomooz",
+                        "logo": "assets/images/default.png",
+                        "description": "一個易於使用的 jQuery 插件，用於製作縮放網頁。"
+                    },
+                    {
+                        "title": "tablesort",
+                        "url": "https://github.com/tristen/tablesort",
+                        "logo": "assets/images/default.png",
+                        "description": "一個用 JavaScript 編寫的表格的小而簡單的排序組件。"
+                    },
+                    {
+                        "title": "tablesorter",
+                        "url": "https://github.com/Mottie/tablesorter",
+                        "logo": "assets/images/default.png",
+                        "description": "一個jQuery插件，將 HTML 表格轉換為無需頁面刷新的可排序表格。"
+                    },
+                    {
+                        "title": "particles.js",
+                        "url": "https://github.com/VincentGarreau/particles.js",
+                        "logo": "assets/images/default.png",
+                        "description": "用於創建粒子的輕量級 JavaScript 庫"
+                    },
+                    {
+                        "title": "DPlayer",
+                        "url": "https://github.com/DIYgod/DPlayer",
+                        "logo": "assets/images/default.png",
+                        "description": "HTML5 彈幕視頻播放器"
+                    },
+                    {
+                        "title": "CSSGram",
+                        "url": "https://github.com/una/CSSgram",
+                        "logo": "assets/images/default.png",
+                        "description": "CSSGram 是一個用 Sass 和 CSS 編寫的 Instagram 過濾器庫"
+                    },
+                    {
+                        "title": "SMTPJS",
+                        "url": "https://github.com/infiniteloopltd/SMTPJS.com",
+                        "logo": "assets/images/default.png",
+                        "description": "在前端直接透過SMTP寄信"
                     }
                 ]
             },
@@ -1392,6 +1434,42 @@
                         "url": "https://github.com/minwt/newebpay",
                         "logo": "assets/images/default.png",
                         "description": "minwt 藍新金流 SDK"
+                    },
+                    {
+                        "title": "weixinPay",
+                        "url": "https://github.com/dedemao/weixinPay",
+                        "logo": "assets/images/default.png",
+                        "description": "微信支付單文件版"
+                    },
+                    {
+                        "title": "alipay",
+                        "url": "https://github.com/dedemao/alipay",
+                        "logo": "assets/images/default.png",
+                        "description": "一個PHP文件搞定支付寶支付系列"
+                    },
+                    {
+                        "title": "wxpay",
+                        "url": "https://github.com/DearSjh/wxpay",
+                        "logo": "assets/images/default.png",
+                        "description": "微信支付單文件版"
+                    },
+                    {
+                        "title": "alipay",
+                        "url": "https://github.com/DearSjh/alipay",
+                        "logo": "assets/images/default.png",
+                        "description": "一個PHP文件搞定支付寶支付系列"
+                    },
+                    {
+                        "title": "WeChat-public",
+                        "url": "https://github.com/DearSjh/WeChat-public",
+                        "logo": "assets/images/default.png",
+                        "description": "微信公眾號接口單文件版"
+                    },
+                    {
+                        "title": "web-console",
+                        "url": "https://github.com/nickola/web-console",
+                        "logo": "assets/images/default.png",
+                        "description": "簡單的基於 Web 的 shell，瀏覽器中的遠程 shell"
                     }
                 ]
             },
@@ -1463,6 +1541,12 @@
                         "url": "https://www.base64decode.net/",
                         "logo": "assets/images/default.png",
                         "description": "Base64線上加解密"
+                    },
+                    {
+                        "title": "Base64 Image Encoder",
+                        "url": "https://www.base64-image.de/",
+                        "logo": "assets/images/default.png",
+                        "description": "線上圖片轉Base64"
                     },
                     {
                         "title": "Javascript Unpacker Tool",
@@ -1780,6 +1864,90 @@
                         "url": "https://sqlzoo.net/wiki/SQL_Tutorial/zh",
                         "logo": "assets/images/default.png",
                         "description": "提供繁體中文版本，互動式教學，可以隨時將所學SQL執行查看效果。"
+                    },
+                    {
+                        "title": "30 天精通 Git 版本控管",
+                        "url": "https://github.com/doggy8088/Learn-Git-in-30-days",
+                        "logo": "assets/images/default.png",
+                        "description": "保哥在 2013 第 6 屆 iT 邦幫忙鐵人賽年度大獎的得獎著作"
+                    },
+                    {
+                        "title": "Git-Tutorials 基本使用教學",
+                        "url": "https://github.com/twtrubiks/Git-Tutorials",
+                        "logo": "assets/images/default.png",
+                        "description": "Git-Tutorials GIT基本使用教學"
+                    },
+                    {
+                        "title": "DB-TUTORIAL",
+                        "url": "https://github.com/dunwu/db-tutorial",
+                        "logo": "assets/images/default.png",
+                        "description": "db-tutorial 是一個數據庫教程"
+                    },
+                    {
+                        "title": "Fullstack Tutorial 2021",
+                        "url": "https://github.com/frank-lam/fullstack-tutorial",
+                        "logo": "assets/images/default.png",
+                        "description": "後台技術棧/架構師之路/全棧開發社區，春招/秋招/校招/面試。"
+                    },
+                    {
+                        "title": "learning-golang",
+                        "url": "https://github.com/yangwenmai/learning-golang",
+                        "logo": "assets/images/default.png",
+                        "description": "Go 學習之路：Go 開發者博客、Go 微信公眾號、Go 學習資料"
+                    },
+                    {
+                        "title": "PHP-Interview",
+                        "url": "https://github.com/yefangyong/PHP-Interview",
+                        "logo": "assets/images/default.png",
+                        "description": "分享和記錄常見的php面試題和面試技巧"
+                    },
+                    {
+                        "title": "Web 開發人員的路線圖",
+                        "url": "https://github.com/goodjack/developer-roadmap-chinese",
+                        "logo": "assets/images/default.png",
+                        "description": "2021 年成為 Web 開發人員的路線圖 台灣正體中文版"
+                    },
+                    {
+                        "title": "Coding Interview University",
+                        "url": "https://github.com/jwasham/coding-interview-university",
+                        "logo": "assets/images/default.png",
+                        "description": "一位稱職工程師所需要的知識都在這裡了"
+                    },
+                    {
+                        "title": "Python-100-Days",
+                        "url": "https://github.com/jackfrued/Python-100-Days",
+                        "logo": "assets/images/default.png",
+                        "description": "Python - 100天從新手到大師"
+                    },
+                    {
+                        "title": "The Algorithms - Python",
+                        "url": "https://github.com/TheAlgorithms/Python",
+                        "logo": "assets/images/default.png",
+                        "description": "在 Python 中實現的所有演算方法"
+                    },
+                    {
+                        "title": "App Ideas Collection",
+                        "url": "https://github.com/florinpop17/app-ideas",
+                        "logo": "assets/images/default.png",
+                        "description": "可用於提高您的編碼技能的應用創意集合"
+                    },
+                    {
+                        "title": "English-level-up-tips-for-Chinese",
+                        "url": "https://github.com/byoungd/English-level-up-tips-for-Chinese",
+                        "logo": "assets/images/default.png",
+                        "description": "可能是讓你受益匪淺的英語進階指南"
+                    },
+                    {
+                        "title": "Node.js Fullstack《從零到一的進撃》",
+                        "url": "https://github.com/jollen/nodejs-fullstack-book",
+                        "logo": "assets/images/default.png",
+                        "description": "Node.js Fullstack《從零到一的進擊》：初學者寫給初學者的全端軟體教材"
+                    },
+                    {
+                        "title": "php-class-example",
+                        "url": "https://github.com/LucienLee/php-class-example",
+                        "logo": "assets/images/default.png",
+                        "description": "基礎php&web開發類示例代碼"
                     }
                 ]
             },
@@ -1903,6 +2071,36 @@
                         "url": "https://hellogithub.com/",
                         "logo": "assets/images/default.png",
                         "description": "分享 GitHub 上入門級、有趣的開源項目"
+                    },
+                    {
+                        "title": "Github Ranking",
+                        "url": "https://github.com/EvanLi/Github-Ranking",
+                        "logo": "assets/images/default.png",
+                        "description": "Github收藏積分，每日自動更新。"
+                    },
+                    {
+                        "title": "前端精讀周刊",
+                        "url": "https://github.com/ascoders/weekly",
+                        "logo": "assets/images/default.png",
+                        "description": "幫你理解最前沿、實用的技術。"
+                    },
+                    {
+                        "title": "前端進階之旅",
+                        "url": "https://github.com/poetries/mywiki",
+                        "logo": "assets/images/default.png",
+                        "description": "收集整理日常發現的好資源、前端資源匯總。"
+                    },
+                    {
+                        "title": "谷粒-Chrome插件英雄榜",
+                        "url": "https://github.com/zhaoolee/ChromeAppHeroes",
+                        "logo": "assets/images/default.png",
+                        "description": "為優秀的Chrome插件寫一本中文說明書, 讓Chrome插件英雄們造福人類。"
+                    },
+                    {
+                        "title": "Student-resources",
+                        "url": "https://github.com/ivmm/Student-resources",
+                        "logo": "assets/images/default.png",
+                        "description": "學生、教職工身份可以享受到的相關學生優惠、教育優惠或教師優惠"
                     }
                 ]
             },
@@ -2196,6 +2394,12 @@
                         "url": "https://www.google.com/recaptcha/about/",
                         "logo": "assets/images/default.png",
                         "description": "reCAPTCHA 保護您的網站免受欺詐和濫用"
+                    },
+                    {
+                        "title": "hCaptcha",
+                        "url": "https://www.hcaptcha.com/",
+                        "logo": "assets/images/default.png",
+                        "description": "reCAPTCHA的直接替代品，您可以在幾分鐘內切換。"
                     },
                     {
                         "title": "LINE Social Plugins",
