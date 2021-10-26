@@ -1612,6 +1612,12 @@
                         "url": "https://requestinspector.com/",
                         "logo": "assets/images/default.png",
                         "description": null
+                    },
+                    {
+                        "title": "Mailtrap",
+                        "url": "https://mailtrap.io/",
+                        "logo": "assets/images/default.png",
+                        "description": "Email Sandbox Service"
                     }
                 ]
             },
