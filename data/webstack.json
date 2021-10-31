@@ -1251,6 +1251,12 @@
                         "description": "簡單來說 Tailwind CSS 是一套 Utility-First CSS，相當具有彈性，也非常適合快速刻板。"
                     },
                     {
+                        "title": "tailwindcomponents",
+                        "url": "https://tailwindcomponents.com/",
+                        "logo": "assets/images/default.png",
+                        "description": "一個免費的社區存儲庫 使用 TailwindCSS 的組件"
+                    },
+                    {
                         "title": "tabler",
                         "url": "https://github.com/tabler/tabler",
                         "logo": "assets/images/default.png",
