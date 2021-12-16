@@ -310,6 +310,7 @@
 |[ScrollReveal](https://github.com/jlmakes/scrollreveal)|當滾動到視野中才顯示動畫|
 |[Normalize.css](https://github.com/necolas/normalize.css)|使瀏覽器更一致地呈現所有元素並符合現代標準。|
 |[Tailwind CSS](https://github.com/tailwindlabs/tailwindcss)|簡單來說 Tailwind CSS 是一套 Utility-First CSS，相當具有彈性，也非常適合快速刻板。|
+|[tailwindcomponents](https://tailwindcomponents.com/)|一個免費的社區存儲庫 使用 TailwindCSS 的組件|
 |[tabler](https://github.com/tabler/tabler)|Tabler 是基於 Bootstrap 構建的免費開源 HTML 儀表板 UI 套件|
 |[jQuery.qrcode](https://github.com/lrsjng/jquery-qrcode)|動態生成二維碼的jQuery外掛|
 |[PouchDB](https://github.com/pouchdb/pouchdb)|受 CouchDB 啟發的開源 JavaScript 數據庫|

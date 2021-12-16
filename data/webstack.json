@@ -318,19 +318,19 @@
                         "title": "NGINX",
                         "logo": "assets/images/default.png",
                         "url": "https://www.nginx.com/",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "Apache",
                         "logo": "assets/images/default.png",
                         "url": "https://httpd.apache.org/",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "Caddy 2",
                         "logo": "assets/images/default.png",
                         "url": "https://caddyserver.com/v2",
-                        "description": null
+                        "description": ""
                     }
                 ]
             },
@@ -341,43 +341,43 @@
                         "title": "MySQL",
                         "logo": "assets/images/default.png",
                         "url": "https://www.mysql.com/",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "MariaDB",
                         "logo": "assets/images/default.png",
                         "url": "https://mariadb.org/",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "PostgreSQL",
                         "logo": "assets/images/default.png",
                         "url": "https://www.postgresql.org/",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "Redis",
                         "logo": "assets/images/default.png",
                         "url": "https://redis.io/",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "Memcached",
                         "logo": "assets/images/default.png",
                         "url": "http://memcached.org/",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "MongoDB",
                         "logo": "assets/images/default.png",
                         "url": "https://www.mongodb.com/",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "SQLite",
                         "logo": "assets/images/default.png",
                         "url": "https://www.sqlite.org/index.html",
-                        "description": null
+                        "description": ""
                     }
                 ]
             },
@@ -388,12 +388,13 @@
                         "title": "Gogs",
                         "logo": "assets/images/default.png",
                         "url": "https://gogs.io/",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "Gitea",
                         "logo": "assets/images/default.png",
-                        "url": "https://gitea.io/zh-tw/"
+                        "url": "https://gitea.io/zh-tw/",
+                        "description": ""
                     }
                 ]
             },
@@ -416,37 +417,37 @@
                         "title": "Laragon",
                         "logo": "assets/images/default.png",
                         "url": "https://laragon.org/",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "OneinStack",
                         "logo": "assets/images/default.png",
                         "url": "https://github.com/oneinstack/oneinstack",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "USBWebserver",
                         "logo": "assets/images/default.png",
                         "url": "https://www.usbwebserver.net/",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "Visual AMP",
                         "logo": "assets/images/default.png",
                         "url": "http://www.ampnmp.com/visual-amp/",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "Visual NMP",
                         "logo": "assets/images/default.png",
                         "url": "http://www.ampnmp.com/visual-nmp/",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "XAMPP",
                         "logo": "assets/images/default.png",
                         "url": "https://www.apachefriends.org/zh_tw/index.html",
-                        "description": null
+                        "description": ""
                     }
                 ]
             },
@@ -457,31 +458,31 @@
                         "title": "Ajenti",
                         "logo": "assets/images/default.png",
                         "url": "http://ajenti.org/",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "Cockpit",
                         "logo": "assets/images/default.png",
                         "url": "https://cockpit-project.org/",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "ISPConfig",
                         "logo": "assets/images/default.png",
                         "url": "https://www.ispconfig.org/",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "Webmin",
                         "logo": "assets/images/default.png",
                         "url": "https://www.webmin.com/",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "YunoHost",
                         "logo": "assets/images/default.png",
                         "url": "https://yunohost.org/",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "寶塔面板",
@@ -521,7 +522,7 @@
                         "title": "JMeter",
                         "url": "https://jmeter.apache.org/",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     }
                 ]
             },
@@ -561,7 +562,7 @@
                         "title": "Git",
                         "url": "https://git-scm.com/",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     }
                 ]
             },
@@ -572,19 +573,19 @@
                         "title": "Bitbucket",
                         "url": "https://bitbucket.org/",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "GitHub",
                         "url": "https://github.com/",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "GitLab",
                         "url": "https://gitlab.com/",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     }
                 ]
             },
@@ -630,49 +631,49 @@
                         "title": "PHP",
                         "url": "https://www.php.net/",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "PHP文件",
                         "url": "https://www.php.net/manual/zh/",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "Node.js",
                         "url": "https://nodejs.org/zh-tw/",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "Node.js文件",
                         "url": "https://nodejs.org/zh-tw/docs/",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "Python",
                         "url": "https://www.python.org/",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "Python文件",
                         "url": "https://docs.python.org/zh-tw/3/",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "Golang",
                         "url": "https://golang.org/",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "Golang文件",
                         "url": "https://golang.org/doc/",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     }
                 ]
             },
@@ -723,37 +724,38 @@
                     {
                         "title": "Angular",
                         "url": "https://angular.tw/",
-                        "logo": "assets/images/default.png"
+                        "logo": "assets/images/default.png",
+                        "description": ""
                     },
                     {
                         "title": "Angular文件",
                         "url": "https://angular.tw/docs",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "React",
                         "url": "https://zh-hant.reactjs.org/",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "React文件",
                         "url": "https://zh-hant.reactjs.org/docs/getting-started.html",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "Vue.js",
                         "url": "https://v3.cn.vuejs.org/",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "Vue.js文件",
                         "url": "https://v3.cn.vuejs.org/guide/introduction.html",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "OnsenUI",
@@ -765,7 +767,7 @@
                         "title": "OnsenUI文件",
                         "url": "https://onsen.io/v2/guide/",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "Framework7",
@@ -777,7 +779,7 @@
                         "title": "Framework7文件",
                         "url": "https://framework7.io/docs/",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "Reveal.js",
@@ -794,25 +796,25 @@
                         "title": "Laravel",
                         "url": "https://laravel.com/",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "Laravel文件",
                         "url": "https://laravel.com/docs/",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "CodeIgniter",
                         "url": "https://codeigniter.com/",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "CodeIgniter文件",
                         "url": "https://codeigniter.org.cn/docs",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     }
                 ]
             },
@@ -823,13 +825,13 @@
                         "title": "Electron.js",
                         "url": "https://www.electronjs.org/",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "Electron.js文件",
                         "url": "https://www.electronjs.org/docs",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     }
                 ]
             },
@@ -840,25 +842,25 @@
                         "title": "Bootstrap",
                         "url": "https://getbootstrap.com/",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "Bootstrap Icons",
                         "url": "https://icons.getbootstrap.com/",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "Font-Awesome 5",
                         "url": "https://fontawesome.com/",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "Font-Awesome 4.7",
                         "url": "https://fontawesome.com/v4.7/",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "Pure.css",
@@ -1599,25 +1601,25 @@
                         "title": "Post Test Server V2",
                         "url": "https://ptsv2.com/",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "http://req",
                         "url": "https://httpreq.com/",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "RequestBin.com",
                         "url": "https://requestbin.com/",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "Inspect HTTP requests",
                         "url": "https://requestinspector.com/",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "Mailtrap",
@@ -1640,7 +1642,7 @@
                         "title": "Beeceptor",
                         "url": "https://beeceptor.com/",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     }
                 ]
             },
@@ -1750,19 +1752,19 @@
                         "title": "Linux命令大全",
                         "logo": "assets/images/default.png",
                         "url": "https://man.linuxde.net/",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "Comprehensive Linux Cheatsheet",
                         "logo": "assets/images/default.png",
                         "url": "https://github.com/gto76/linux-cheatsheet",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "Linux命令搜索引擎",
                         "logo": "assets/images/default.png",
                         "url": "https://wangchujiang.com/linux-command/",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "Laravel 速查表",
@@ -2292,37 +2294,37 @@
                         "title": "WordPress",
                         "url": "https://tw.wordpress.org/",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "Discuz!",
                         "url": "https://www.discuz.net/",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "MediaWiki",
                         "url": "https://www.mediawiki.org/wiki/Template:Main_page/zh",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "Adminer",
                         "url": "https://www.adminer.org/",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "phpMyAdmin",
                         "url": "https://www.phpmyadmin.net/",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "Joomla!",
                         "url": "https://www.joomla.org/",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "Flarum",
@@ -2364,31 +2366,31 @@
                         "title": "DokuWiki",
                         "url": "https://www.dokuwiki.org/dokuwiki",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "Tiny Tiny RSS",
                         "url": "https://tt-rss.org/",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "Nextcloud",
                         "url": "https://nextcloud.com/",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "ownCloud",
                         "url": "https://owncloud.com/",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "YOURLS",
                         "url": "https://github.com/YOURLS/YOURLS",
                         "logo": "assets/images/default.png",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "FreshRSS",
@@ -2452,19 +2454,19 @@
                         "title": "Facebook for Developers",
                         "logo": "assets/images/default.png",
                         "url": "https://developers.facebook.com/",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "綠界科技 ECPay",
                         "logo": "assets/images/default.png",
                         "url": "https://www.ecpay.com.tw/",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "綠界廠商管理後台",
                         "logo": "assets/images/default.png",
                         "url": "https://vendor.ecpay.com.tw/User/LogOn_Step1",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "綠界廠商管理後台",
@@ -2476,7 +2478,7 @@
                         "title": "藍新金流服務平台",
                         "logo": "assets/images/default.png",
                         "url": "https://www.newebpay.com/",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "藍新金流服務平台",
@@ -2488,13 +2490,13 @@
                         "title": "三竹簡訊",
                         "logo": "assets/images/default.png",
                         "url": "https://sms.mitake.com.tw/common/index.jsp",
-                        "description": null
+                        "description": ""
                     },
                     {
                         "title": "EVERY8D簡訊平台",
                         "logo": "assets/images/default.png",
                         "url": "https://www.teamplus.tech/product/every8d-value/",
-                        "description": null
+                        "description": ""
                     }
                 ]
             }
@@ -2508,133 +2510,133 @@
                 "title": "AnotherRedisDesktopManager",
                 "logo": "assets/images/default.png",
                 "url": "https://github.com/qishibo/AnotherRedisDesktopManager",
-                "description": null
+                "description": ""
             },
             {
                 "title": "Apifox",
                 "logo": "assets/images/default.png",
                 "url": "https://www.apifox.cn/",
-                "description": null
+                "description": ""
             },
             {
                 "title": "Docker Desktop",
                 "logo": "assets/images/default.png",
                 "url": "https://www.docker.com/products/docker-desktop",
-                "description": null
+                "description": ""
             },
             {
                 "title": "FileZilla",
                 "logo": "assets/images/default.png",
                 "url": "https://filezilla-project.org/",
-                "description": null
+                "description": ""
             },
             {
                 "title": "FiraCode",
                 "logo": "assets/images/default.png",
                 "url": "https://github.com/tonsky/FiraCode",
-                "description": null
+                "description": ""
             },
             {
                 "title": "Github Desktop",
                 "logo": "assets/images/default.png",
                 "url": "https://desktop.github.com/",
-                "description": null
+                "description": ""
             },
             {
                 "title": "Gitkraken",
                 "logo": "assets/images/default.png",
                 "url": "https://www.gitkraken.com/",
-                "description": null
+                "description": ""
             },
             {
                 "title": "HeidiSQL",
                 "logo": "assets/images/default.png",
                 "url": "https://www.heidisql.com/",
-                "description": null
+                "description": ""
             },
             {
                 "title": "HTTrack",
                 "logo": "assets/images/default.png",
                 "url": "https://www.httrack.com/",
-                "description": null
+                "description": ""
             },
             {
                 "title": "Insomnia",
                 "logo": "assets/images/default.png",
                 "url": "https://insomnia.rest/",
-                "description": null
+                "description": ""
             },
             {
                 "title": "Kite",
                 "logo": "assets/images/default.png",
                 "url": "https://www.kite.com/",
-                "description": null
+                "description": ""
             },
             {
                 "title": "Navicat",
                 "logo": "assets/images/default.png",
                 "url": "https://www.navicat.com/cht/",
-                "description": null
+                "description": ""
             },
             {
                 "title": "Mockoon",
                 "logo": "assets/images/default.png",
                 "url": "https://github.com/mockoon/mockoon",
-                "description": null
+                "description": ""
             },
             {
                 "title": "Navicat",
                 "logo": "assets/images/default.png",
                 "url": "https://www.navicat.com/cht/",
-                "description": null
+                "description": ""
             },
             {
                 "title": "NETworkManager",
                 "logo": "assets/images/default.png",
                 "url": "https://borntoberoot.net/NETworkManager/",
-                "description": null
+                "description": ""
             },
             {
                 "title": "OWASP ZAP",
                 "logo": "assets/images/default.png",
                 "url": "https://www.zaproxy.org/",
-                "description": null
+                "description": ""
             },
             {
                 "title": "Postman",
                 "logo": "assets/images/default.png",
                 "url": "https://www.postman.com/",
-                "description": null
+                "description": ""
             },
             {
                 "title": "SwitchHost!",
                 "logo": "assets/images/default.png",
                 "url": "https://swh.app/zh/",
-                "description": null
+                "description": ""
             },
             {
                 "title": "Termius",
                 "logo": "assets/images/default.png",
                 "url": "https://termius.com/",
-                "description": null
+                "description": ""
             },
             {
                 "title": "TortoiseGit",
                 "logo": "assets/images/default.png",
                 "url": "https://tortoisegit.org/",
-                "description": null
+                "description": ""
             },
             {
                 "title": "Visual Studio",
                 "logo": "assets/images/default.png",
                 "url": "https://visualstudio.microsoft.com/zh-hant/",
-                "description": null
+                "description": ""
             },
             {
                 "title": "Visual Studio Code",
                 "logo": "assets/images/default.png",
                 "url": "https://code.visualstudio.com/",
-                "description": null
+                "description": ""
             }
         ]
     },
