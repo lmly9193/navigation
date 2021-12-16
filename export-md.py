@@ -1,8 +1,12 @@
+import os
 import json
 
 file = open(file = 'data/webstack.json', mode = 'r', encoding = 'utf-8')
 
 groups = json.loads(file.read())
+
+if os.path.exists("webstack.md"):
+    os.remove("webstack.md")
 
 f = open(file = 'webstack.md', mode = 'a', encoding = 'utf-8')
 
