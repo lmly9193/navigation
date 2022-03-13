@@ -257,6 +257,12 @@
                 "term": "域名查詢",
                 "links": [
                     {
+                        "title": "Google Public DNS",
+                        "url": "https://dns.google/",
+                        "logo": "assets/images/default.png",
+                        "description": "Google 提供的一個免費域名解析服務"
+                    },
+                    {
                         "title": "DNS Checker",
                         "url": "https://www.whatsmydns.net/",
                         "logo": "assets/images/default.png",
@@ -584,6 +590,12 @@
                     {
                         "title": "GitLab",
                         "url": "https://gitlab.com/",
+                        "logo": "assets/images/default.png",
+                        "description": ""
+                    },
+                    {
+                        "title": "Docker Hub",
+                        "url": "https://hub.docker.com/",
                         "logo": "assets/images/default.png",
                         "description": ""
                     }
@@ -1413,6 +1425,126 @@
                         "url": "https://github.com/infiniteloopltd/SMTPJS.com",
                         "logo": "assets/images/default.png",
                         "description": "在前端直接透過SMTP寄信"
+                    },
+                    {
+                        "title": "UAParser.js",
+                        "url": "https://github.com/faisalman/ua-parser-js",
+                        "logo": "assets/images/default.png",
+                        "description": "Detect Browser, Engine, OS, CPU, and Device type/model from User-Agent data. Supports browser & node.js environment."
+                    },
+                    {
+                        "title": "html2canvas",
+                        "url": "https://github.com/niklasvh/html2canvas",
+                        "logo": "assets/images/default.png",
+                        "description": "Screenshots with JavaScript"
+                    },
+                    {
+                        "title": "Waypoints",
+                        "url": "https://github.com/imakewebthings/waypoints",
+                        "logo": "assets/images/default.png",
+                        "description": "Waypoints is a library that makes it easy to execute a function whenever you scroll to an element."
+                    },
+                    {
+                        "title": "blueimp Gallery",
+                        "url": "https://github.com/blueimp/Gallery",
+                        "logo": "assets/images/default.png",
+                        "description": "blueimp Gallery is a touch-enabled, responsive and customizable image & video gallery, carousel and lightbox, optimized for both mobile and desktop web browsers. It features swipe, mouse and keyboard navigation, transition effects, slideshow functionality, fullscreen support and on-demand content loading."
+                    },
+                    {
+                        "title": "Flickity",
+                        "url": "https://github.com/metafizzy/flickity",
+                        "logo": "assets/images/default.png",
+                        "description": "Touch, responsive, flickable carousels"
+                    },
+                    {
+                        "title": "ScrollIt.js",
+                        "url": "https://github.com/cmpolis/scrollIt.js",
+                        "logo": "assets/images/default.png",
+                        "description": "A jQuery plugin that makes it easy to create paginated, feature vertically scrolling pages."
+                    },
+                    {
+                        "title": "Zoom",
+                        "url": "https://github.com/jackmoore/zoom",
+                        "logo": "assets/images/default.png",
+                        "description": "jQuery plugin for zooming images on mouseover."
+                    },
+                    {
+                        "title": "Tilt.js",
+                        "url": "https://github.com/gijsroge/tilt.js",
+                        "logo": "assets/images/default.png",
+                        "description": "A tiny 60+fps parallax tilt hover effect for jQuery."
+                    },
+                    {
+                        "title": "Instascan",
+                        "url": "https://github.com/schmich/instascan",
+                        "logo": "assets/images/default.png",
+                        "description": "HTML5 QR code scanner using your webcam"
+                    },
+                    {
+                        "title": "pagemap",
+                        "url": "https://github.com/lrsjng/pagemap",
+                        "logo": "assets/images/default.png",
+                        "description": "Mini map for web pages."
+                    },
+                    {
+                        "title": "paroller.js",
+                        "url": "https://github.com/tgomilar/paroller.js",
+                        "logo": "assets/images/default.png",
+                        "description": "Parallax scrolling jQuery plugin"
+                    },
+                    {
+                        "title": "bootstrap-fileinput",
+                        "url": "https://github.com/kartik-v/bootstrap-fileinput",
+                        "logo": "assets/images/default.png",
+                        "description": "An enhanced HTML 5 file input for Bootstrap 5.x/4.x./3.x with file preview, multiple selection, and more features."
+                    },
+                    {
+                        "title": "bootstrap-number-input",
+                        "url": "https://github.com/wpic/bootstrap-number-input",
+                        "logo": "assets/images/default.png",
+                        "description": "Very simple, fast and lightweight (> 3K) jquery plugin for bootstrap to render number input more user-friendly."
+                    },
+                    {
+                        "title": "PhoneFormat.js",
+                        "url": "https://github.com/albeebe/phoneformat.js",
+                        "logo": "assets/images/default.png",
+                        "description": "A javascript phone formatter"
+                    },
+                    {
+                        "title": "instant.page",
+                        "url": "https://github.com/instantpage/instant.page",
+                        "logo": "assets/images/default.png",
+                        "description": "Make your site’s pages instant in 1 minute and improve your conversion rate by 1%"
+                    },
+                    {
+                        "title": "tabulator",
+                        "url": "https://github.com/olifolkerd/tabulator",
+                        "logo": "assets/images/default.png",
+                        "description": "Interactive Tables and Data Grids for JavaScript"
+                    },
+                    {
+                        "title": "formBuilder",
+                        "url": "https://github.com/kevinchappell/formBuilder",
+                        "logo": "assets/images/default.png",
+                        "description": "A jQuery plugin for drag and drop form creation, formBuilder has many options and is translatable."
+                    },
+                    {
+                        "title": "Nzh",
+                        "url": "https://github.com/cnwhy/nzh",
+                        "logo": "assets/images/default.png",
+                        "description": "数字转中文（大写，小写）数字，金额。"
+                    },
+                    {
+                        "title": "bootstrap-input-spinner",
+                        "url": "https://github.com/shaack/bootstrap-input-spinner",
+                        "logo": "assets/images/default.png",
+                        "description": "A Bootstrap / jQuery plugin to create input spinner elements for number input."
+                    },
+                    {
+                        "title": "TOAST UI",
+                        "url": "https://ui.toast.com/",
+                        "logo": "assets/images/default.png",
+                        "description": "JavaScript UI library and free open source project constantly managed by NHN"
                     }
                 ]
             },
@@ -2020,12 +2152,6 @@
                         "url": "https://data.gov.tw/",
                         "logo": "assets/images/default.png",
                         "description": "中華民國台灣政府的開放資料平台"
-                    },
-                    {
-                        "title": "IPList",
-                        "url": "https://iplist.cc/",
-                        "logo": "assets/images/default.png",
-                        "description": "個人和企業都可以免費使用的IP資訊查詢API服務。"
                     },
                     {
                         "title": "IPList",

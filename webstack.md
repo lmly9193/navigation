@@ -66,6 +66,7 @@
 
 |網站|說明|
 |--|--|
+|[Google Public DNS](https://dns.google/)|Google 提供的一個免費域名解析服務|
 |[DNS Checker](https://www.whatsmydns.net/)|使用多個伺服器對你的目標進行 DNS Lookup 查詢|
 |[WHOIS 網域名稱查詢](https://whois.gandi.net/zh-hant)|Gandi 提供的 WHOIS 查詢服務|
 
@@ -169,6 +170,7 @@
 |[Bitbucket](https://bitbucket.org/)||
 |[GitHub](https://github.com/)||
 |[GitLab](https://gitlab.com/)||
+|[Docker Hub](https://hub.docker.com/)||
 
 ### 套件管理
 
@@ -337,6 +339,26 @@
 |[DPlayer](https://github.com/DIYgod/DPlayer)|HTML5 彈幕視頻播放器|
 |[CSSGram](https://github.com/una/CSSgram)|CSSGram 是一個用 Sass 和 CSS 編寫的 Instagram 過濾器庫|
 |[SMTPJS](https://github.com/infiniteloopltd/SMTPJS.com)|在前端直接透過SMTP寄信|
+|[UAParser.js](https://github.com/faisalman/ua-parser-js)|Detect Browser, Engine, OS, CPU, and Device type/model from User-Agent data. Supports browser & node.js environment.|
+|[html2canvas](https://github.com/niklasvh/html2canvas)|Screenshots with JavaScript|
+|[Waypoints](https://github.com/imakewebthings/waypoints)|Waypoints is a library that makes it easy to execute a function whenever you scroll to an element.|
+|[blueimp Gallery](https://github.com/blueimp/Gallery)|blueimp Gallery is a touch-enabled, responsive and customizable image & video gallery, carousel and lightbox, optimized for both mobile and desktop web browsers. It features swipe, mouse and keyboard navigation, transition effects, slideshow functionality, fullscreen support and on-demand content loading.|
+|[Flickity](https://github.com/metafizzy/flickity)|Touch, responsive, flickable carousels|
+|[ScrollIt.js](https://github.com/cmpolis/scrollIt.js)|A jQuery plugin that makes it easy to create paginated, feature vertically scrolling pages.|
+|[Zoom](https://github.com/jackmoore/zoom)|jQuery plugin for zooming images on mouseover.|
+|[Tilt.js](https://github.com/gijsroge/tilt.js)|A tiny 60+fps parallax tilt hover effect for jQuery.|
+|[Instascan](https://github.com/schmich/instascan)|HTML5 QR code scanner using your webcam|
+|[pagemap](https://github.com/lrsjng/pagemap)|Mini map for web pages.|
+|[paroller.js](https://github.com/tgomilar/paroller.js)|Parallax scrolling jQuery plugin|
+|[bootstrap-fileinput](https://github.com/kartik-v/bootstrap-fileinput)|An enhanced HTML 5 file input for Bootstrap 5.x/4.x./3.x with file preview, multiple selection, and more features.|
+|[bootstrap-number-input](https://github.com/wpic/bootstrap-number-input)|Very simple, fast and lightweight (> 3K) jquery plugin for bootstrap to render number input more user-friendly.|
+|[PhoneFormat.js](https://github.com/albeebe/phoneformat.js)|A javascript phone formatter|
+|[instant.page](https://github.com/instantpage/instant.page)|Make your site’s pages instant in 1 minute and improve your conversion rate by 1%|
+|[tabulator](https://github.com/olifolkerd/tabulator)|Interactive Tables and Data Grids for JavaScript|
+|[formBuilder](https://github.com/kevinchappell/formBuilder)|A jQuery plugin for drag and drop form creation, formBuilder has many options and is translatable.|
+|[Nzh](https://github.com/cnwhy/nzh)|数字转中文（大写，小写）数字，金额。|
+|[bootstrap-input-spinner](https://github.com/shaack/bootstrap-input-spinner)|A Bootstrap / jQuery plugin to create input spinner elements for number input.|
+|[TOAST UI](https://ui.toast.com/)|JavaScript UI library and free open source project constantly managed by NHN|
 
 ### 後端套件
 
@@ -486,7 +508,6 @@
 |--|--|
 |[Have I Been Pwned](https://haveibeenpwned.com/)|檢查您的電子郵件、電話、密碼是否存在洩露數據庫中|
 |[政府資料開放平台](https://data.gov.tw/)|中華民國台灣政府的開放資料平台|
-|[IPList](https://iplist.cc/)|個人和企業都可以免費使用的IP資訊查詢API服務。|
 |[IPList](https://iplist.cc/)|個人和企業都可以免費使用的IP資訊查詢API服務。|
 |[REST Countries](https://restcountries.eu/)|通過 RESTful API 獲取有關國家/地區的信息|
 
